@@ -2,4 +2,4 @@
 layout: default
 ---
 {%- include mathjax.html -%}
-$\Omega^\bullet(M) = \bigoplus_{j = 1}^\infty \Omega^j(M).$ 
+$\Omega(M) = \bigoplus_{j}\Omega^j(M).$ 
