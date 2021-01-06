@@ -24,6 +24,6 @@ We can now prove a basic fact about sequences.
 
 *Proof*. Suppose that $(a_n) \to b$ and $(a_n) \to c$. Note that because we assume $b \neq c,$ we have that $d(b,c) = C > 0$. Thus, if we take $\epsilon > 0$ so that $0 < \epsilon < C/2$, we can find $N_1$ and $N_2$ large enough so that for $n > \max\\{N_1, N_2\\}$, $d(a_n,b) < \epsilon$ and $d(a_n,c) < \epsilon.$ This implies that
 
-$$d(b,c) = d(b,a_n) + d(c,a_n) < \dfrac{C}{2} + \dfrac{C}{2} = C,$$
+$$d(b,c) \leq d(b,a_n) + d(c,a_n) < \dfrac{C}{2} + \dfrac{C}{2} = C,$$
 
 which is, of course, a contradiction. 
