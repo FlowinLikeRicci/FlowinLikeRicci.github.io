@@ -3,4 +3,5 @@ layout: default
 ---
 {%- include mathjax.html -%}
 I will add a resume soon.
-$\|f\|_1 = \int_X |f(x)|\;d\mu(x)$
+
+Let $(M,\omega)$ be symplectic. Then, define a Hamiltonian $H : M \to \mathbb{R}$, to obtain a vector field $X_H$ such that $dH = \iota(X_H)\omega.$
