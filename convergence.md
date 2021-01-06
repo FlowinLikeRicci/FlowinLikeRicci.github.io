@@ -14,4 +14,12 @@ In these notes we will discuss the basic properties of sequences and convergence
 
 **Definition** (Sequence): Let $S$ be a countable set and $X$ a set. A sequence is a subset $\{a_j\}_{j \in S} \subset X.$ Usually, $S$ is chosen to be $\mathbb{N}$ for ordinary sequences. 
 
-**Definition** (Convergence of a Sequence): Let $(a_j) \subset X$ and let $\epsilon > 0$ be given. If there exists some element $a \in X$ such that $d(a_n,a) < \epsilon$ for $n > N$, for some $N \in \mathbb{N}$, we say that $(a_n)$ converges to $a$ with respect to $d.$ This is written as $(a_n) \xrightarrow{n \to \infty} a.$
+**Definition** (Convergence of a Sequence): Let $(a_j) \subset X$. If there exists some element $a \in X$ such that for all $\epsilon > 0$, there exists some $N \in \mathbb{N}$, $d(a_n,a) < \epsilon$ for $n > N$, we say that $(a_n)$ converges to $a$ with respect to $d.$ This is written as $(a_n) \xrightarrow{n \to \infty} a.$
+
+**Definition** (Limit): If $(a_n) \to a$, we call $a$ the limit of $(a_n)$.
+
+We can now prove a basic fact about sequences.
+
+**Proposition** (Uniqueness of Limit): Suppose $(a_n) \to a \in X,$ then $(a_n)$ does not converge to any other $a' \in X.$
+
+*Proof*. $\blackbox$ 
