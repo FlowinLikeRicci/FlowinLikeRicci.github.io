@@ -8,8 +8,8 @@ Let $(M,\omega)$ be symplectic. Then, define a Hamiltonian $H : M \to \mathbb{R}
 
 [A Graded Algebra](newpage.md)
 
-#Assorted Notes
+# Assorted Notes
 [Notes on Sequences](convergence.md)
 
-# Self-Study Problems
+# Problems From Self-Study
 [Complex Analysis](SelfStudy/ComplexAnalysis/complexanalysisproblems.pdf)
