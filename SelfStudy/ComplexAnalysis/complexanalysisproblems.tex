@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} % AMS Math Package
+\usepackage{amsthm} % Theorem Formatting
+\usepackage{amssymb}    % Math symbols such as \mathbb
+\usepackage{graphicx} % Allows for eps images
+\usepackage[dvips,letterpaper,margin=1in,bottom=0.7in]{geometry}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+\usepackage{framed}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{fullpage}
+\usepackage{hyperref}
+    \hypersetup{colorlinks=true,citecolor=blue,urlcolor =black,linkbordercolor={1 0 0}}
+
+\newenvironment{statement}[1]{\smallskip\noindent\color{black}{\bf #1.}}{}
+\allowdisplaybreaks[1]
+%Below are the theorem, definition, example, lemma, etc. body types.
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{proposition}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{postulate}[theorem]{Postulate}
+\theoremstyle{definition}
+\newtheorem{defn}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{notation}{Notation}
+\newtheorem*{note}{Note}
+
+% You can define new commands to make your life easier.
+\newcommand{\BR}{\mathbb R}
+\newcommand{\BC}{\mathbb C}
+\newcommand{\BF}{\mathbb F}
+\newcommand{\BQ}{\mathbb Q}
+\newcommand{\BZ}{\mathbb Z}
+\newcommand{\BN}{\mathbb N}
+\newcommand{\mt}{\mathcal{T}}
+\newcommand{\mo}{\mathcal{O}}
+\newcommand{\p}{\partial}
+\newcommand{\ms}{\mathcal{S}}
+\newcommand{\seq}{\subseteq}
+\newcommand{\s}{\subset}
+\newcommand{\dint}{\displaystyle\int}
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}}
+% We can even define a new command for \newcommand!
+\newcommand{\nc}{\newcommand}
+\renewcommand\qedsymbol{$\blacksquare$}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+\usepackage{scalerel}
+\let\lctau\tau % save the lowercase of '\tau'
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\renewcommand{\tau}{\scalerel*{\lctau}{X}}
+\usepackage{times}
+\usepackage{textcomp}
+\newcommand{\bigslant}[2]{{\raisebox{.2em}{$#1$}\left/\raisebox{-.2em}{$#2$}\right.}}
+\begin{document}
+{\noindent\Huge\bf  \\[0.5\baselineskip] {\fontfamily{cmr}\selectfont  Selected Exercises}         }\\[1\baselineskip] % Title
+{ {\bf \fontfamily{cmr}\selectfont Complex Analysis}\\ {\textit{\fontfamily{cmr}\selectfont     \today}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    {\large{Jacob Krantz}}
+\noindent\makebox[\linewidth]{\rule{8in}{0.4pt}}
+\\[1.4\baselineskip]
+Here are selected problems I solved while self-studying \textit{Complex Analysis} by Stein and Sharkarchi.
+\begin{statement}{1.9}
+We first deduce the Cauchy-Riemann equations in polar coordinates. Polar coordinates Notice that:
+\begin{align*}
+\dfrac{\p u}{\p r} &= \dfrac{\p u}{\p x}\dfrac{\p x}{\p r} + \dfrac{\p u}{\p y}\dfrac{\p y}{\p r} \\\\
+&= \dfrac{\p u}{\p x}\cos\theta + \dfrac{\p u}{\p y}\sin\theta \\\\
+&= \dfrac{1}{r}\dfrac{\p v}{\p y}r\cos\theta - \dfrac{1}{r}\dfrac{\p v}{\p x}r\sin\theta \\\\
+&= \dfrac{1}{r}\dfrac{\p v}{\p \theta} \\\\
+\dfrac{1}{r}\dfrac{\p u}{\p \theta} &= \dfrac{1}{r}\left (\dfrac{\p u}{\p x}\dfrac{\p x}{\p \theta} + \dfrac{\p u}{\p y}\dfrac{\p y}{\p \theta}\right ) \\\\
+&= \dfrac{1}{r}\left (-\dfrac{\p u}{\p x}r\sin\theta + \dfrac{\p u}{\p y}r\cos\theta\right ) \\\\
+&= -\dfrac{\p v}{\p y}\sin\theta - \dfrac{\p v}{\p x}\cos\theta \\\\
+&= -\dfrac{\p v}{\p r}.
+\end{align*}
+Write $\log z = \log r + i\theta = u(r,\theta) + iv(r,\theta).$ By Theorem $2.4,$ it suffices to show $u$ and $v$ satisfy the Cauchy-Riemann equations. Clearly, for the given pairs $(r,\theta),$ we have
+\[\dfrac{\p u}{\p r} = \dfrac{1}{r} \quad \dfrac{\p u}{\p \theta} = 0 \quad \dfrac{\p v}{\p r} = 0 \quad \dfrac{\p v}{\p \theta} = 1.\]
+Thus, we get that
+\[\dfrac{\p u}{\p r} = \dfrac{1}{r} = \dfrac{1}{r}\dfrac{\p v}{\p \theta}\]
+and
+\[\dfrac{1}{r}\dfrac{\p u}{\p \theta} = 0 = -\dfrac{\p v}{\p r}.\]
+Thus, $\log z$ is holomorphic for $r > 0$ and $\theta \in (-\pi,\pi).$
+\end{statement}
+\end{document}
