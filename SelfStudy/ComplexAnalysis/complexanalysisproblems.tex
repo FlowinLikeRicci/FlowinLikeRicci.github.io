@@ -99,4 +99,14 @@ Applying the differentiation operators as usual, we compute
 &= \Delta.
 \end{align*}
 \end{statement}
+\begin{statement}{1.24}
+Using the reverse parameterization defined in the book, we observe
+\begin{align*}
+\int_{\gamma^{-}}f(x)\;dz &= \int_{a}^{b}f(z^{-}(t))(z^{-})'(t)\;dt \\\\
+&= -\int_{a}^{b}f(z(a + b - t))z'(b + a - t)\;dt \\\\
+&= \int_{b}^{a}f(z(u))z'(u)\;du \\\\
+&= -\int_{a}^{b}f(z(u))z'(u)\;du \\\\
+&= -\int_{\gamma}f(z)\;dz.
+\end{align*}
+\end{statement}
 \end{document}
