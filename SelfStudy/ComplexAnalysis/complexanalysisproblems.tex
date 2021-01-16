@@ -66,7 +66,7 @@
 { {\bf \fontfamily{cmr}\selectfont Complex Analysis}\\ {\textit{\fontfamily{cmr}\selectfont     \today}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    {\large{Jacob Krantz}}
 \noindent\makebox[\linewidth]{\rule{8in}{0.4pt}}
 \\[1.4\baselineskip]
-Here are selected problems I solved while self-studying \textit{Complex Analysis} by Stein and Sharkarchi.
+Here are selected problems I solved while self-studying \textit{Complex Analysis} by Stein and Sharkarchi. I tended to write up computational questions because I have seen the theory come up in my other classes. \\\\
 \begin{statement}{1.9}
 We first deduce the Cauchy-Riemann equations in polar coordinates. Notice that:
 \begin{align*}
@@ -103,14 +103,14 @@ Applying the differentiation operators as usual, we compute
 Using the reverse parameterization defined in the book, we observe
 \begin{align*}
 \int_{\gamma^{-}}f(x)\;dz &= \int_{a}^{b}f(z^{-}(t))(z^{-})'(t)\;dt \\\\
-&= -\int_{a}^{b}f(z(a + b - t))z'(b + a - t)\;dt \\\\
+&= -\int_{a}^{b}f(z(a + b - t))z'(a + b - t)\;dt \\\\
 &= \int_{b}^{a}f(z(u))z'(u)\;du \\\\
 &= -\int_{a}^{b}f(z(u))z'(u)\;du \\\\
 &= -\int_{\gamma}f(z)\;dz.
 \end{align*}
 \end{statement}
 \begin{statement}{2.1}
-Denote the flat arc at the bottom by $\gamma_{1},$ the curved arc by $\gamma_{2},$ and the segment of the line $\theta = \pi/4$ by $\gamma_{3}.$ Next, notice that $z \mapsto e^{-z^{2}}$ is holomorphic as a complex Gaussian. Thus, it follows that $\int_{\gamma_{1}}e^{-z^{2}}\;dz + \int_{\gamma_{2}}e^{-z^{2}}\;dz + \int_{\gamma_{3}}e^{-z^{2}}\;dz = 0.$ We explicitly compute the first two integrals in order to solve for the third. For the first one, notice that this is just the usual Gaussian integral over the positive part of the real line. Thus, we get that, as $R$ approaches infinity, 
+Denote the flat arc at the bottom by $\gamma_{1},$ the curved arc by $\gamma_{2},$ and the segment of the line $\theta = \pi/4$ by $\gamma_{3}.$ Next, notice that $z \mapsto e^{-z^{2}}$ is holomorphic as a complex Gaussian. Thus, it follows that $\int_{\gamma_{1}}e^{-z^{2}}\;dz + \int_{\gamma_{2}}e^{-z^{2}}\;dz + \int_{\gamma_{3}}e^{-z^{2}}\;dz = 0.$ We explicitly compute the first two integrals in order to solve for the third. For the first one, notice that this is just the usual Gaussian integral over the non-negative portion of the real line. Thus, we get that, as $R$ approaches infinity, 
 \[\int_{\gamma_{1}}e^{-z^{2}}\;dz \to \dfrac{\sqrt{\pi}}{2}.\]
 For the second term, notice that
 \begin{align*}
