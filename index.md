@@ -7,5 +7,7 @@ I will add a resume soon.
 # Assorted Notes
 [Sequences](convergence.md)
 
+[Stiefel-Whitney Classes](SelfStudy/AlgebraicTopology/CharacteristicClasses/ThomIsomorphism/thomisomorphism.pdf)
+
 # Problems From Self-Study
 [Complex Analysis](SelfStudy/ComplexAnalysis/complexanalysisproblems.pdf)
