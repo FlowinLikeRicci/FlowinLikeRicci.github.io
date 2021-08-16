@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 AUG 2021 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 AUG 2021 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,20 +516,20 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 71
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
  [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 
 (./thomisomorphism.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thomisomorphism.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
  8473 strings out of 480608
@@ -550,7 +550,7 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on thomisomorphism.pdf (1 page, 91860 bytes).
+Output written on thomisomorphism.pdf (1 page, 91837 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream

@@ -76,7 +76,7 @@ In these notes, we will construct important topological invariants: Stiefel-Whit
 \item The tautological line bundle over $\mathbb{RP}^{1}$ has non-zero $w_{1}.$
 \end{enumerate}
 
-This gives us some nice immediate properties, such as $w_{i}(E_{1} \oplus E_{2}) = w_{i}(E_{1})$, if $E_{2}$ is trivial. Another interesting property is that $w_{j}(E) = 0$ for $j > n - k$ if there are $k$ fiber-wise linearly independent non-vanishing sections of $E.$ One can show that, in fact, real vector bundles have Stiefel-Whitney classes described by a pullback of the class on the canonical bundle over the infinite Grassmannian, $\mathrm{G}_{n}(\BR^{\infty})$ of the corresponding dimension. Using these ideas, we can show that Stiefel-Whitney classes are unique.
+This gives us some nice immediate properties, such as $w_{i}(E_{1} \oplus E_{2}) = w_{i}(E_{1})$, if $E_{2}$ is trivial. Another interesting property is that $w_{j}(E) = 0$ for $j > n - k$ if there are $k$ fiber-wise linearly independent non-vanishing sections of $E.$ One can show that, in fact, real vector bundles have Stiefel-Whitney classes described by a pullback of the class on the tautological bundle over the infinite Grassmannian, $\mathrm{G}_{n}(\BR^{\infty})$ of the corresponding dimension. Using these ideas, we can show that Stiefel-Whitney classes are unique.
 
 Now, there exists a unique cohomology class, $u \in H^{n}(E,E_{0})$ that restricts to the nonzero element of $H^{n}(F,F_{0})$ in each fiber, where a zero subscript denotes a subtraction of the image of the zero section. Cup product with $u$ then yields an isomorphism, and additionally, $B \hookrightarrow E$ as the zero section, which means that $E$ deformation retracts onto $B$ and yields an isomorphism $\pi^{*} : H^{k}(B) \to H^{k}(E).$ Hence, the map $\phi : H^{k}(B) \to H^{n + k}(E,E_{0})$ is an isomorphism called the Thom isomorphism.
 
@@ -87,5 +87,6 @@ Another important element of this construction is the construction of the Steenr
 \item $\Sq^{0} = \id$, $\Sq^{n}$ is the cup square, and $\Sq^{i} = 0$ if $i > n$ by definition.
 \item If $\Sq = \sum \Sq^{i}$, then $\Sq(a \smile b) = \Sq(a) \smile \Sq(b).$
 \end{enumerate}
-It follows that we can define $w_{i}(E) = \phi^{-1}\Sq^{i}\phi(1)$, which can be shown to coincide with the original definition.
+
+We can then define $w_{i}(E) = \phi^{-1}\Sq^{i}\phi(1)$, which can be shown to coincide with the original definition.
 \end{document}
