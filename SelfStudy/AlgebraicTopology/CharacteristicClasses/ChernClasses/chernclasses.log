@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 AUG 2021 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 AUG 2021 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,7 +388,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count283
 \l__pdf_internal_box=\box50
 )
-No file chernclasses.aux.
+(./chernclasses.aux)
 \openout1 = `chernclasses.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -409,6 +409,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
 6.
+
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -493,35 +494,29 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
 LaTeX Info: Redefining \nameref on input line 66.
+ (./chernclasses.out) (./chernclasses.out)
 \@outlinefile=\write3
 \openout3 = `chernclasses.out'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
  [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
 
 (./chernclasses.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
-
-
-Package rerunfilecheck Warning: File `chernclasses.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `chernclasses.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `chernclasses.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
  ) 
 Here is how much of TeX's memory you used:
- 8399 strings out of 480608
- 123227 string characters out of 5903631
- 396017 words of memory out of 5000000
+ 8405 strings out of 480608
+ 123329 string characters out of 5903631
+ 396121 words of memory out of 5000000
  24136 multiletter control sequences out of 15000+600000
  536366 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -529,7 +524,7 @@ Here is how much of TeX's memory you used:
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/202
 0/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on chernclasses.pdf (1 page, 10004 bytes).
+Output written on chernclasses.pdf (1 page, 17312 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
