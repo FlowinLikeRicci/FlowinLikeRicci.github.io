@@ -9,7 +9,7 @@ I will add a resume soon.
 
 [Stiefel-Whitney Classes](SelfStudy/AlgebraicTopology/CharacteristicClasses/ThomIsomorphism/thomisomorphism.pdf)
 
-[Chern Classes](SelfStudy/AlgebraicTopology/CharacteristicClasses/ChernClasses/ChernClasses.pdf)
+[Chern Classes](SelfStudy/AlgebraicTopology/CharacteristicClasses/ChernClasses/chernclasses.pdf)
 
 # Problems From Self-Study
 [Complex Analysis](SelfStudy/ComplexAnalysis/complexanalysisproblems.pdf)
