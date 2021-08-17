@@ -68,5 +68,9 @@
 \textbf{\Large Chern Classes}
 \end{center}
 
-Chern classes are important characteristic classes in geometry and topology.
+Chern classes are important characteristic classes in geometry and topology. They are similar to Stiefel-Whitney classes to some extent, but they are defined for complex vector bundles and integer cohomology. Now, to formally define Chern classes, let $\pi : E \to B$ be a complex vector bundle and $E_{0}$ be $E$ with the image of the zero section removed. Next, fix a Hermitian metric on $E$, and define a new vector bundle over $E_{0}$ by letting the fiber be the orthogonal complement under the chosen metric. Call this new bundle $E'.$
+
+We can now finally define Chern classes. Chern classes are elements $c_{i}(E) \in H^{2i}(B;\BZ)$, which are defined inductively. If $E$ has rank $n$, then $c_{n}(E) = e(E)$, where $e(E)$ is understood to be the Euler class of $E$ considered as a real vector bundle. Then, for $i < n$, $c_{i}(E) = (\pi_{0}^{*})^{-1}c_{i}(E')$, where $\pi_{0} : E_{0} \to B.$ Finally, $c_{i}(E) = 0$ if $i > n.$
+
+Some consequences of this definition include that the Chern classes are natural, $c_{i}(E_{1} \oplus E_{2}) = c_{i}(E_{1})$ if $E_{2}$ is trivial, and $c(E_{1} \oplus E_{2}) = c(E_{1}) \smile c(E_{2}).$ Note also that there are two other definitions of Chern classes that are commonly used. The first is similar to the axiomatic definition of Stiefel-Whitney classes, and the second is what is called Chern-Weil theory and will be described next.
 \end{document}
