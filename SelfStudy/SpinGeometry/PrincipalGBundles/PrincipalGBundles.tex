@@ -1,0 +1,82 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath} % AMS Math Package
+\usepackage{amsthm} % Theorem Formatting
+\usepackage{amssymb}    % Math symbols such as \mathbb
+\usepackage{graphicx} % Allows for eps images
+\usepackage[dvips,letterpaper,margin=1in,bottom=0.7in]{geometry}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+\usepackage{framed}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{fullpage}
+\usepackage{hyperref}
+    \hypersetup{colorlinks=true,citecolor=blue,urlcolor =black,linkbordercolor={1 0 0}}
+
+\newenvironment{statement}[1]{\smallskip\noindent\color{black}{\bf #1.}}{}
+\allowdisplaybreaks[1]
+%Below are the theorem, definition, example, lemma, etc. body types.
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{proposition}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{postulate}[theorem]{Postulate}
+\theoremstyle{definition}
+\newtheorem{defn}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{notation}{Notation}
+\newtheorem*{note}{Note}
+
+% You can define new commands to make your life easier.
+\newcommand{\BR}{\mathbb R}
+\newcommand{\BC}{\mathbb C}
+\newcommand{\BF}{\mathbb F}
+\newcommand{\BQ}{\mathbb Q}
+\newcommand{\BZ}{\mathbb Z}
+\newcommand{\BN}{\mathbb N}
+\newcommand{\Sq}{\mathrm{Sq}}
+\newcommand{\mt}{\mathcal{T}}
+\newcommand{\mo}{\mathcal{O}}
+\newcommand{\p}{\partial}
+\newcommand{\GL}{\mathrm{GL}}
+\newcommand{\Ortho}{\mathrm{O}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\rank}{\mathrm{rank}}
+\newcommand{\ms}{\mathcal{S}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\Prin}{\mathrm{Prin}}
+\newcommand{\seq}{\subseteq}
+\newcommand{\s}{\subset}
+\newcommand{\Ad}{\mathrm{Ad}}
+\newcommand{\dint}{\displaystyle\int}
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}}
+% We can even define a new command for \newcommand!
+\newcommand{\nc}{\newcommand}
+\renewcommand\qedsymbol{$\blacksquare$}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+\usepackage{scalerel}
+\let\lctau\tau % save the lowercase of '\tau'
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\renewcommand{\tau}{\scalerel*{\lctau}{X}}
+\usepackage{times}
+\usepackage{textcomp}
+\begin{document}
+\begin{center}
+\textbf{\Large Principal $G$-Bundles}
+\end{center}
+
+Principal $G$-bundles are fiber bundles $\pi : P \to X$ such that $G$ acts freely and transitively as a right action on the fibers. There are many important examples of such bundles. Now, let $\pi : E \to X$ be a rank $n$ real vector bundle. If we construct the fiber over $x \in X$ as the set of bases of $\pi^{-1}(x)$, we get a principal $\GL(n;\BR)$-bundle. Similarly, if $E$ is oriented, we get a principal $\GL^{+}(n;\BR)$-bundle by this same process. If we can fix a metric on $E$, we get a principal $\Ortho(n)$-bundle. Finally, if $X$ is oriented, we can get a principal $\SO(n)$-bundle.
+
+An important property of principal $G$-bundles is that $H^{1}(X;G)$ can be identified with the set of principal $G$-bundles for a given $G$ modulo homeomorphisms that preserve the projection map. If we let $\Prin_{G}(X)$ denote this moduli space, it follows that $\Prin_{G}(X) = [X,BG]$, where $BG$ is the classifying space of $G.$
+
+Another interesting construction involving principal $G$-bundles is the associated bundle. Associated bundles are useful, especially when considered together with the adjoint representation. If $\pi : P \to X$ is a principal $G$-bundle and $\phi : G \to \mathrm{Homeo}(F)$ be a left action of $G$ on $F$. One can define a fiber bundle associated to $P$ by $\phi$ by setting the total space equal to $P \times F/G$, where $G$ acts as a right action by $(p,f) \cdot g = (p \cdot g, \phi(g^{-1})f).$ The projection map is defined by composing $\pi$ with the projection onto $P.$ We call this new fiber bundle $P \times_{\phi} F.$ In the case in which $\phi = \Ad$, we get the adjoint bundle: $\mathfrak{g}_{P} = P \times_{\Ad} \mathfrak{g}$, where $\mathfrak{g}$ is the Lie algebra of $G.$ Thus, this is naturally a bundle of Lie algebras.
+\end{document}

@@ -11,5 +11,7 @@ I will add a resume soon.
 
 [Chern Classes](SelfStudy/AlgebraicTopology/CharacteristicClasses/ChernClasses/chernclasses.pdf)
 
+[Principal G-Bundles](SelfStudy/SpinGeometry/PrincipalGBundles/PrincipalGBundles.pdf)
+
 # Problems From Self-Study
 [Complex Analysis](SelfStudy/ComplexAnalysis/complexanalysisproblems.pdf)
